@@ -2,17 +2,17 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #134266   ;
-  --secondary-color: #fce172 ;
+  --primary-color: #134266;
+  --secondary-color: #fce172;
   --accent1-color: #78c5d7;
   --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Water Brush";
+  --heading-font: "Dancing Script";
   --paragraph-font: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
 
   /* these colors below should be chosen from among your palette colors above */
@@ -20,7 +20,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #134266; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #134266  ;
+  --paragraph-background-color: #134266;
   --nav-link-color: #134266;
   --nav-background-color: #fce172;
   --nav-hover-link-color: white;
