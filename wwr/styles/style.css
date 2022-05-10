@@ -68,9 +68,11 @@ h4 {color: #134266;
 }
 footer h3 {color: #134266;
     text-decoration: underline;
+    text-align: center;
 }
 footer a {color: #134266;
     text-decoration: none;
+    text-align: center;
 }
 footer a:hover {color: #134266;
 }
