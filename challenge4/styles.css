@@ -1,0 +1,63 @@
+/*Defining table: create same page as the challenge, color match background color, hover over the word education to change white text to black text,
+Center all sections.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {background-color: #fca6c9;
+      }
+nav {text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      color: white;
+      padding-bottom: 1em;
+      padding-top: .5em;
+      font-family: Roboto;
+      }
+      nav:hover {
+            color: black;
+          }
+header p {text-align: center;
+            width: 45%;
+            margin: 0 auto;
+            color: white;
+            padding-bottom: 1em;
+            font-family: Roboto;
+      }
+h3 {width: 30%;
+      margin: 0 auto;
+      font-family: Roboto;
+      color: white;
+      padding-bottom: 1em;
+      text-align: right;
+      }
+ol {text-align: left;
+      width: 40%;
+      margin: 0 auto;
+      font-weight: bolder;
+      font-size: 18px;
+      padding-bottom: 1em;
+      font-family: Roboto;
+      line-height: 2em;
+      }
+img {display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      padding-bottom: 1em;
+      }
+main p {text-align: center;
+      color: white;
+      font-size: 28px;
+      width: 25%;
+      margin: 0 auto;
+      padding-bottom: 1em;
+      }
+footer {text-align: center;
+      font-size: small;
+      padding-bottom: 1em;
+      width: 25%;
+      margin: 0 auto;
+      font-weight: bold;
+      }
+
+     
