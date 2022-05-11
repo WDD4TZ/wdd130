@@ -2,11 +2,12 @@
 #737373 the gray bottom background*/
 .bubbles {
     width: 100%;
+    display: block;
 }
 .desk, .graphic, .person {
     width: 20%;
     border-radius: 50%;
-    border: 5px solid #444444;
+    border: 10px solid #444444;
     margin: 35px 55px 35px 40px;
     }
 .bottom {
