@@ -1,0 +1,20 @@
+/*colors are: #444444 which is the dark circle border
+#737373 the gray bottom background*/
+.bubbles {
+    width: 100%;
+}
+.desk, .graphic, .person {
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid #444444;
+    margin: 35px 55px 35px 40px;
+    }
+.bottom {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(115,115,115);
+}
+body {
+    margin: 0;
+    padding: 0;
+}

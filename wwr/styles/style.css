@@ -4,55 +4,122 @@
   --accent2-color: white;
   I added a new color similar to white: #f0eee8
   I am also added black to my color palette*/
-div {max-width: 1600px;
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
+div {
+    max-width: 1600px;
 }
 #content {
     margin: 0 auto;
 }
-nav {text-align: center;
+nav {
+    text-align: center;
     background-color: #fce172;
 }
-nav a {color: #134266;
+nav a {
+    color: #134266;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
+    padding: 35px;
+
 }
-#hero-msg h1, #hero-msg h4, main, section, .button-box, .social {text-align: center;
+#hero-msg h1, #hero-msg h4, main, section, .button-box, .social {
+    text-align: center;
+    color: #134266;
 }
-#hero-img {width: 100%;
+#hero-img {
+    width: 100%;
 }
-#background {height: 725px;
+#background {
+    height: 725px;
     background-color: #134266;
     height: 725px;
 }
-body {background-color: #f0eee8;
+body {
+    background-color: #f0eee8;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
-header {background-color: #134266;
+header {
+    background-color: #134266;
 }
-a:hover {background-color: #78c5d7;
+a:hover {
+    background-color: #78c5d7;
     text-decoration: underline;
 }
-.book {background-color: #fce172;
+.book, .join {
+    background-color: #fce172;
     color: #134266;
     text-decoration: none;
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.book:hover, .join:hover {background-color: white;
+.book:hover, .join:hover {
+    background-color: whitesmoke;
 }
-.join {background-color: #fce172;
+.msg {
+    background-color: #134266;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: whitesmoke;
+    font-family: "Dancing Script";
+}
+.msg p {
+    color: whitesmoke;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: #78c5d7;
+}
+h4, footer h3, footer a, .rivers-card, .camping-card, .rapids-card, nav a {
     color: #134266;
-    text-decoration: none;
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
 }
-.msg {background-color: #134266;
+.rivers-card, .camping-card, .rapids-card{
+    margin-top: 200px;
 }
-.msg h2, .msg p {color: whitesmoke}
-footer {background-color: #78c5d7;
+.home-title {
+    font-family: "Dancing Script";
+    font-size: 3em;
+    margin-top: 10px;
 }
-.home-title, h4, footer h3, footer a, .rivers-card, .camping-card, .rapids-card {color: #134266;
-}
-footer h3, footer a {text-decoration: underline;
+footer h3, footer a {
+    text-decoration: underline;
     text-align: center;
 }
-footer a:hover {color: white; 
+footer a:hover {
+    color: whitesmoke; 
 }
-.logo, .icon {width: 80px;
+.logo, .icon {
+    width: 80px;
+    padding: 10px;
+}
+h2 {
+    margin: 0;
+    padding: 0rem;
+}
+#logolink {
+    padding-top: 5px;
+
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+main section img {
+    box-sizing: border-box;
+    border: 10px solid #134266;
+}
+h2 {
+    margin: 0;
 }
