@@ -71,6 +71,7 @@ a:hover {
 .msg h2 {
     color: whitesmoke;
     font-family: Allura;
+    font-size: 2em;
 }
 .msg p {
     color: whitesmoke;
