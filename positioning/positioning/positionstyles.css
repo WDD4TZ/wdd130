@@ -35,6 +35,8 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: (4,20%);
 }
 .red2 {
   width: 100px; 
@@ -45,16 +47,19 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
+  grid-column: 2;
 } 
 .yellow2 {
   width: 100px; 
   height: 100px; 
   background-color: gold; 
+  grid-column: 4;
 } 
 .blue2 {
   width: 100px; 
   height: 100px; 
   background-color: blue; 
+  grid-column: 6;
 } 
 /* Activity 3 styles */ 
 .content3 {
