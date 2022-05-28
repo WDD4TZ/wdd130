@@ -15,6 +15,8 @@ div {
 nav {
     text-align: center;
     background-color: #fce172;
+    display: flex;
+    justify-content: space-around;
 }
 nav a {
     color: #134266;
@@ -22,11 +24,25 @@ nav a {
     text-decoration: none;
     text-align: center;
     padding: 35px;
-
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
 }
 #hero-msg h1, #hero-msg h4, main, section, .button-box, .social {
     text-align: center;
-    color: #134266;
+    color: whitesmoke;
 }
 #hero-img {
     width: 100%;
@@ -35,6 +51,8 @@ nav a {
     height: 725px;
     background-color: #134266;
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 body {
     background-color: #f0eee8;
@@ -44,6 +62,12 @@ body {
 }
 header {
     background-color: #134266;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#home-grid {
+    display: grid;
+    grid-template-columns: repeat (10,1fr);
 }
 a:hover {
     background-color: #78c5d7;
@@ -66,7 +90,10 @@ a:hover {
     background-color: #134266;
     line-height: 1.5em;
     padding: 35px;
-    font-family: poppins;
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
     color: whitesmoke;
@@ -78,17 +105,42 @@ a:hover {
     font-size: .8em;
     padding-bottom: 15px;
 }
-footer {
-    background-color: #78c5d7;
-}
 h4, footer h3, footer a, nav a {
     color: #134266;
     font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
 }
-.rivers-card, .camping-card, .rapids-card{
+/*.card-img, .mountains {
+    width: 100%;
+}This was in the weeks instructions but seems to be messing things up.*/
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+.rivers-card { 
     margin-top: 200px;
     color: #134266;
     font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.rapids-card {
+    margin-top: 200px;
+    color: #134266;
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.camping-card {
+    margin-top: 200px;
+    color: #134266;
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 .home-title {
     font-family: Allura,"Dancing Script", "Arial Nova";
@@ -113,23 +165,33 @@ h2 {
 }
 #logolink {
     padding-top: 5px;
-
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 footer {
     padding: 25px 50px;
     margin-top: 200px;
+    background-color: #78c5d7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-footer .social img {
+/*.social img {
     padding-top: 15px;
-}
-main section img {
+}*/ /*I do not think I need this*/
+/*main section img {
     box-sizing: border-box;
     border: 10px solid #134266;
-}
-h2 {
+}*/
+/*h2 {
     margin: 0;
-}
+} I think this is extra and not needed*/
 .mountains {
+    /*width: 100%; This keeps making the pic cover the screen.*/
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
 }
