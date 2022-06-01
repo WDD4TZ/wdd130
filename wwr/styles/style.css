@@ -6,6 +6,7 @@
   I am also added black to my color palette*/
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 div {
     max-width: 1600px;
 }
@@ -14,7 +15,7 @@ div {
 }
 nav {
     text-align: center;
-    background-color: hsl(76, 7%, 42%, 2);
+    background-color: hsl(76, 7%, 42%);
     display: flex;
     justify-content: space-around;
 }
@@ -40,7 +41,7 @@ nav a {
     grid-row: 1/2;
     margin-top: 100px;
 }
-#hero-msg h1 {
+.home-title {
     text-align: center;
     color: whitesmoke;
     font-size: 80px;
@@ -48,6 +49,9 @@ nav a {
 #hero-msg h4, main, .button-box, .social {
     text-align: center;
     color: whitesmoke;
+}
+.social a{
+    text-decoration: none;
 }
 #hero-img {
     width: 100%;
@@ -160,6 +164,7 @@ footer a:hover {
 }
 .logo, .icon {
     width: 80px;
+    height: 80px;
     padding: 10px;
     border: none;
 }
@@ -213,7 +218,7 @@ footer {
         display: none;
     }
     .home-title {
-        font-size: 25px;
+        font-size: 50px;
         color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
