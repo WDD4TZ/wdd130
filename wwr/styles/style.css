@@ -221,6 +221,13 @@ footer {
     grid-column: 5/7;
     grid-row: 3/4;
 }
+.salmon-river p {
+    width: 45%;
+    padding: 35px;
+}
+.salmon {
+    grid-column: 5/10;
+}
 
 
 
