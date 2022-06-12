@@ -218,15 +218,42 @@ footer {
     grid-row: 4/9;
 }
 .rivers-title {
-    grid-column: 5/7;
-    grid-row: 3/4;
+    font-family: Allura,"Dancing Script", "Arial Nova";
+    font-size: 95px;
+    font-stretch: expanded;
+    color: #134266;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    z-index: 1;
+}
+.rivers-subtitle {
+    color: #134266;
+    font-size: 35px;
 }
 .salmon-river p {
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
     width: 45%;
     padding: 35px;
 }
 .salmon {
     grid-column: 5/10;
+    padding: 35px;
+}
+.gray-canyon p {
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    width: 45%;
+    padding: 35px;
+}
+.gray {
+    padding: 35px;
+}
+.grand-canyon p {
+    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
+    width: 45%;
+    padding: 35px;
+}  
+.grand {
+    padding: 35px;
 }
 
 
