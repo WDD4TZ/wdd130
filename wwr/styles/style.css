@@ -199,16 +199,14 @@ footer {
 
 /*the following is adjustments for the rivers page*/
 
-#hero-img-rivers {
-    width: 100%; /*this is the banner at the top of rivers page*/
-}
-#rivers-page {
-    background-color: #134266; /*this is the rivers page header*/
-}
-.rivers.grid {
-    text-align: center;
+
+.rivers-header {
+    background-color: #134266;
+ }
+#rivers-main {
+    text-align: left;
     display: grid;
-    grid-template-columns: repeat(10,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 #background-rivers {
     height: 725px;
@@ -217,14 +215,26 @@ footer {
     grid-column: 1/11;
     grid-row: 4/9;
 }
+#banner {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#banner-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+#banner-msg {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
 .rivers-title {
     font-family: Allura,"Dancing Script", "Arial Nova";
     font-size: 95px;
-    font-stretch: expanded;
-    color: #134266;
-    grid-column: 3/4;
-    grid-row: 1/2;
-    z-index: 1;
+    color: black;
 }
 .rivers-subtitle {
     color: #134266;
@@ -238,6 +248,8 @@ footer {
 .salmon {
     grid-column: 5/10;
     padding: 35px;
+    grid-column: 2/3;
+    grid-row-start: 2/3;
 }
 .gray-canyon p {
     font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
