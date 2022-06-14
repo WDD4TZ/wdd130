@@ -218,7 +218,7 @@ footer {
 #banner {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    margin-top: -25px;
 }
 #banner-box {
     grid-column: 1/4;
