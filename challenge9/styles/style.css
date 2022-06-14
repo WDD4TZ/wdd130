@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+div {
+    background-color: black;
+    grid: display;
+    grid-template-columns: 1fr 1fr 1fr;
+    z-index: -1;
+}
+header {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+section {
+    background-color: whitesmoke;
+    width: 300px;
+    color: black;
+    text-align: center;
+    font-family: "Roboto-slab";
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.cityscape {
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 15px 15px 0px 0px;
+  }
+footer {
+    background-color: #3F5B8B;
+    grid-column: 2/3;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+/*The width of the image is 300px (hint: the card is the width of the image)
+background color: #3F5B8B;
+Font family: "Roboto Slab"
+Text colors: #8F848F, #3F5B8B
+One method to get the lines between the columns in the bottom grid is to put a left margin on the middle div and right div*/

@@ -327,14 +327,20 @@ footer {
     padding-left: 0;
     
 }
-#hero-msg-banner {
+/*#hero-msg-banner {
     grid-column: 1/3;
     grid-row: 2/3;
     margin-top: 100px;
     color: whitesmoke;
     font-size: 60px;
-}
+}*/
+#hero-msg-banner h1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    color: #134266;
+    font-size: 60px;
 
+}
 
 
 
