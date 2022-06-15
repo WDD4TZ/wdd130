@@ -72,7 +72,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: hsl(206, 69%, 24%, .25);
+    background-color: rgba(19, 67, 103, 0.25);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -199,67 +199,13 @@ footer {
 }
 
 /*the following is adjustments for the rivers page*/
-
-
-/*.rivers-header {
-    background-color: #134266;
- }
-.rivers-main {
-    text-align: left;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-#background-rivers {
-    height: 725px;
-    background-color: #134266;
- 
- 
-}
-
-
-.rivers-title {
-    font-family: Allura,"Dancing Script", "Arial Nova";
-    font-size: 95px;
-    color: black;
-}
-.rivers-subtitle {
-    color: #134266;
-    font-size: 35px;
-}
-.salmon-river p {
-    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
-    width: 45%;
-    padding: 35px;
-}
-.salmon {
-    padding: 35px;
-    float: right;
-
-}
-.gray-canyon p {
-    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
-    width: 45%;
-    padding: 35px;
-}
-.gray {
-    padding: 35px;
-}
-.grand-canyon p {
-    font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
-    width: 45%;
-    padding: 35px;
-}  
-.grand {
-    padding: 35px;
-    width: 50%;
-}*/
-
 .rivers-main {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
     max-width: 100%;
-    margin: 50px 0;
+    padding: 0;
+    margin: 0;
 }
 .salmon {
     grid-column: 2/3;
@@ -289,7 +235,6 @@ footer {
     font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
     color: whitesmoke;
 }
-
 .grand {
     grid-column: 2/3;
     grid-row: 3/4;
@@ -305,7 +250,6 @@ footer {
     padding-right: 20px;
     font-family: Poppins, "Avenir Next LT Pro Demi", "Arial Nova";
 }
-
 .salmon img, .gray img, .grand img {
     max-width: 100%;
 }
@@ -325,34 +269,44 @@ footer {
     height: 100%;
     padding-top: 20px;
     padding-left: 0;
-    
 }
-/*#hero-msg-banner {
-    grid-column: 1/3;
-    grid-row: 2/3;
-    margin-top: 100px;
-    color: whitesmoke;
-    font-size: 60px;
-}*/
-#hero-msg-banner h1 {
-    grid-column: 1/3;
+#hero-riv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -100px;
+}
+#hero-box-riv {
+    grid-column: 1/4;
     grid-row: 1/3;
-    color: #134266;
-    font-size: 60px;
-
+    z-index: -1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+#hero-msg-riv {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 45px;
+    margin-top: 72px;
+    margin-left: 100px;
+}
+#hero-riv h4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.home-title-riv {
+    font-family: Allura,"Dancing Script", "Arial Nova";
+    font-size: 3em;
+    margin-top: 10px;
+    color: whitesmoke;
+    margin: 0 auto;
+}
+.foot-riv {
+    padding: 25px 50px;
+    margin-top: 125px;
+    background-color: #78c5d7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
@@ -406,5 +360,17 @@ footer {
     }
     nav {
         background-color: #6f7364;
+    }
+    #hero-riv {
+        display: block;
+        height: auto;
+        margin-top: 0;
+    }
+    #hero-msg-riv {
+        margin-top: 0;
+    }
+    .home-title-riv {
+        font-size: 50px;
+        color: #6f7364;
     }
 }
