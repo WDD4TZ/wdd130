@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
 header {
+    width: 300px;
     height: 204px;
+    margin: 0 auto;
 }
 img {
     border-radius: 15px 15px 0px 0px;
-    padding: 0;
-    margin: 0;
 }
 body {
-    align-items: center;
     background-color: black;
 }
-
 section {
     width: 300px;
     background-color: whitesmoke;
     text-align: center;
     font-family: "Roboto-slab";
     padding: 0;
-    margin: 0;
     padding-bottom: 10px;
+    margin: 0 auto;
  }
  h4 {
     margin: 0;
     padding: 15px;
  }
-
 footer {
     background-color: #3F5B8B;
     width: 300px;
     border-radius: 0px 0px 15px 15px;
+    margin: 0 auto;
 }
 div {
-    grid: display;
     grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    color: whitesmoke;
 }
 .read {
     grid-column: 1/2;
     padding-left: 5px;
+    margin-right: 5px;
 }
 .views {
     grid-column: 2/3;
     padding-left: 10px;
     border-left: 2px solid whitesmoke;
-    
 }
 .comments {
     grid-column: 3/4;
     margin-left: 10px;
+    padding-left: 5px;
     padding-right: 5px;
     border-left: 2px solid whitesmoke;
 }
