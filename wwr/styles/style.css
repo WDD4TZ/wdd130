@@ -7,9 +7,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
-/*div {
-    max-width: 1600px;
-}*/
+
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -255,7 +253,6 @@ footer {
 }
 .salmon img {
     width: 90%;
-    /*margin-top: 60px;*/
     padding-left: 20px;
 }
 .gray img {
@@ -312,7 +309,7 @@ footer {
 
 /*The following must be after all other css*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, .rivers-main {
+    #hero, .home-grid, .rivers-main, #hero-riv {
         display: block;
         height: auto;
     }
@@ -327,16 +324,16 @@ footer {
     a:hover {
         background-color: #78c5d7;
     }
-    #hero {
+    #hero, #hero-riv {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, #hero-msg-riv {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
-    .home-title {
+    .home-title, .home-title-riv {
         font-size: 50px;
         color: #6f7364;
     }
@@ -360,18 +357,6 @@ footer {
     }
     nav {
         background-color: #6f7364;
-    }
-    #hero-riv {
-        display: block;
-        height: auto;
-        margin-top: 0;
-    }
-    #hero-msg-riv {
-        margin-top: 0;
-    }
-    .home-title-riv {
-        font-size: 50px;
-        color: #6f7364;
     }
     .gray-canyon {
         color: black;
