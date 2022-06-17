@@ -312,7 +312,7 @@ footer {
 
 /*The following must be after all other css*/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rivers-main {
         display: block;
         height: auto;
     }
@@ -372,5 +372,9 @@ footer {
     .home-title-riv {
         font-size: 50px;
         color: #6f7364;
+    }
+    .gray-canyon {
+        color: black;
+        padding-left: 25px;
     }
 }

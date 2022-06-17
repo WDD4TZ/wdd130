@@ -45,28 +45,17 @@ div {
 }
 .views {
     grid-column: 2/3;
-    padding-left: 10px;
-    border-left: 2px solid whitesmoke;
+    margin-left: 25px;
 }
 .comments {
     grid-column: 3/4;
     margin-left: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    border-left: 2px solid whitesmoke;
 }
-
-
-
-
-
-
-
-
-
-
-/*The width of the image is 300px (hint: the card is the width of the image)
-background color: #3F5B8B;
-Font family: "Roboto Slab"
-Text colors: #8F848F, #3F5B8B
-One method to get the lines between the columns in the bottom grid is to put a left margin on the middle div and right div*/
+.r, .v, .c {/*these classes are from the span in html*/
+    font-size: 10px;
+}
+.v-div, .c-div {
+    border-left: black 1px solid;
+}
