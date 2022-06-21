@@ -4,9 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zander Web Design|Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <header>
+        <a id="logoLink" href="index.html">
+            <img class="logo" src="images/design_logo5.png" alt="zander-logo">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="portfolio/index.html">Portfolio</a>
+            <a href="about_me/index.html">About</a>
+        </nav>
+    </header>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/laptop-image.jpg" alt="laptop_image">
+            </div>
+            <section id="hero-msg">
+                <h1 class="home-title">Beautiful Web Page Design</h1>
+                <h4>Colorful, Easy to navigate, Effective</h4>
+            </section>
+        </div>  
+    <main class="port-grid">
+            <section class="font-poster-text">
+                <img class="font-poster" src="images/font-poster.jpg" alt="font-poster-image">
+                <h3>Font Poster</h3>
+                <p>This project consisted of research, concept thumbnails, digital sketches, preliminary concepts, color 
+                    variations, mockups, and a behance.net post. The project needed to include the following, size of 
+                    16" X 20", the font I chose, history/information about the font, font designer's name, samples of all
+                    the weights I had available, pricing and contact information, and a three-color minimum.</p>
+            </section>
+            <section class="glyph">
+                <img class="glyph-poster" src="images/glyph-poster.jpg" alt="glyph-poster-image">
+                <h3>Glyph Composition</h3>
+                <p>This assignment consisted of using 5-8 different characters and at least five different types of font anatomy.<br>
+                Composition 1 consists of Neu Haas Grotesk bold font. I chose to spell the word SIMPLE. Do you see the word?<br>
+                Composition 2 consists of Stempel Garamond bold. I chose to spell the word STRONG. Do you see this word?</p>
+            </section>
+            <section class="gift-book">
+                <img class="gift-poster" src="images/gift-booklet.jpg" alt="gift-book-image">
+                <h3>A Gift Booklet</h3>
+                <p>I chose a talk from a current address, at the time, from The Church of Jesus Christ of Latter-Day Saints 
+                    general conference to create this final project. The title is 'Light Cleaveth Unto Light' by Elder Timothy
+                    J. Dyches. Some of the requirements are to use one picture of the speaker, character and paragraphe styles,
+                    page numbers, am minimum of three colors, grids, margins, gutters, etc. We were also to keep in mind
+                    who our audience would be. I chose my family as my audience. These mockups came from freepik.com as 
+                    a free download.
+                </p>
+            </section>
+        </div>
+<!--This is pasted from WWR contact us. Use the CSS styling from there.-->
+        <div id="feedback"></div>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="user_name" onfocus="this.value=' ' " value="first name">
+             </li>
+             <li>
+               <label for="mail">E-mail:</label>
+               <input type="email" id="mail" name="user_email">
+             </li>
+             <li>
+               <label for="msg">Message:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+             <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+            </ul>
+           </form>
+    </main>
+    <footer>
+        <h3>Zander Web Design; 2022 - Tam Zan</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+
+       
 </body>
 </html>
