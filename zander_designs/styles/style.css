@@ -70,6 +70,7 @@ a:hover {
     margin-top: 50px;
     text-align: center;
 }
+
 /*.home-title-port is for the word gallery on portfolio page only*/
 .home-title-port {
     margin-left: 150px;
@@ -161,17 +162,27 @@ h3 {
     grid-column: 2/3;
     grid-row: 2/3;
 }
+/*the following is for the about page*/
+.sec-para {
+    background-color: #b0d1de;
+    height: 375px;
+    margin-top: 40px;
+    padding: 40px;
+}
+.top-bottom-para {
+    margin-top: 30px;
+    padding: 30px;
+}
+.about-header {
+    font-size: 2em;
+}
 
 
-
-
-
-
-
-/*The following is pasted from the form assignment css*/
+/*The following is pasted from the form assignment css. Except for the contact sections.*/
 /*The following is the styling for the contact us page.*/
 .contact-section {
     margin-top: 30px;
+    background-color: #b0d1de;
 }
 form {
     /* Center the form on the page */
