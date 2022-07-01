@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div id="content">
     <header>
         <a id="logoLink" href="index.html">
             <img class="logo" src="images/design_logo5.png" alt="zander-logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html">Gallery</a>
             <a href="about.html">About</a>
         </nav>
     </header>
@@ -24,12 +25,13 @@
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Beautiful Web Page Design</h1>
-                <h4>Colorful, Easy to navigate, Effective</h4>
+                <h3>Colorful, Easy to navigate, Effective</h3>
             </section>
         </div>
 
         <main class="home-grid">
         <div class="elev-pitch">
+            <h2>Look</h2>
             <p>Are you starting a new business, or are you self-employed? Would you like to reach more people through
                 a web page but do not know how to go about it? Or maybe you have a page that is not working well, and you 
                 you have spent too much of your precious time on it. That's what I do. Depending
@@ -38,20 +40,22 @@
             </p>
         </div>
         <div class="card-links">
-            <div class="background-ribbon">
                 <img class="texture" src="images/textured-background.png" alt="textured-image">
-            </div>
             <div class="port-card">
-                <img class="port-img" src="images/buildings.jpg" alt="find-a-pic">
-                <a href="portfolio.html">Portfolio</a>
+                <a href="portfolio.html" target="_blank">
+                    <img class="port-img" src="images/buildings.jpg" alt="building-img">
+                </a>
             </div>
             <div class="about-card">
-                <img class="about-img" src="images/light-bulb.jpg" alt="find-an-image">
-                <a href="about.html">About</a>
+                <a href="about.html" target="_blank">
+                    <img class="about-img" src="images/light-bulb.jpg" alt="building-img">
+                </a>
             </div>
         </div>
+
+        
+        <!--The following is copied from WWR contact page. Get CSS code for this from there.-->
         <div class="contact-section">
-            <!--The following is copied from WWR contact page. Get CSS code for this from there.-->
             <div id="feedback"></div>
         <form action="/my-handling-form-page" method="post">
             <ul>
@@ -90,6 +94,7 @@
                 </a>
             </div>
         </footer>
+        </div>
 
     
 </body>

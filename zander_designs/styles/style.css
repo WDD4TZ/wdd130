@@ -1,0 +1,211 @@
+/* These are my siteplan colors
+Primary	Secondary	Accent 1	Accent 2
+[#020402]	[#57737a]	[#a3b3d1]	[#c2fcf7]
+Fonts=Typography
+Heading Font: Joan, or "Nuosu SIL", or "Gentium Plus";
+Paragraph Font: Roboto, or "Kdam Thmor Pro", or Helvetica;*/
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+header {
+    background-color: #277789;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    text-align: center;
+    background-color: #277789;
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    color: #d6e7fa;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+    font-family: Poppins, Joan, "Nuosu SIL", "Gentium Plus";
+}
+a:hover {
+    background-color: #010101;
+}
+.logo, .icon {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border: none;
+}
+/*copied from wwr*/
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1 {
+    /*color: #f6d9d9;*/
+    color: whitesmoke;
+    font-family: Joan, "Nuosu SIL", "Gentium Plus";
+    font-size: 3em;
+    margin-top: 50px;
+    text-align: center;
+}
+.elev-pitch h2 {
+    text-align: center;
+}
+p {
+    Font: Roboto, "Kdam Thmor Pro", Helvetica;
+    font-size: 1.25em;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.card-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.port-img {
+    height: 500px;
+    width: 400px;
+    grid-column: 1/2;
+}
+.about-img {
+    height: 500px;
+    width: 400px;
+    grid-column: 2/3;
+}
+.texture {
+    grid-column: 1/3;
+    width: 100%;
+}
+
+
+
+/*The following is pasted from the form assignment css*/
+/*The following is the styling for the contact us page.*/
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+  }
+
+  /*This is added from the school assignment form section.*/
+  #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
+  /*I am adding style to the contact page header to match the other pages.*/
+
+  .cont-header {
+    background-color: #134266;
+  }
+/*footer pasted from wwr*/
+footer h3, footer a {
+    text-decoration: underline;
+    text-align: center;
+    color: #d6e7fa;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color: #277789;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social a{
+    text-decoration: none;
+}
+
+
+
+
