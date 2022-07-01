@@ -4,6 +4,7 @@ Primary	Secondary	Accent 1	Accent 2
 Fonts=Typography
 Heading Font: Joan, or "Nuosu SIL", or "Gentium Plus";
 Paragraph Font: Roboto, or "Kdam Thmor Pro", or Helvetica;*/
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gentium+Plus&family=Joan&family=Kdam+Thmor+Pro&family=Nuosu+SIL&family=Roboto&family=Roboto+Slab&display=swap');
 #content {
     margin: 0 auto;
     max-width: 1600px;
@@ -22,11 +23,11 @@ nav {
 nav a {
     color: #d6e7fa;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     text-decoration: none;
     text-align: center;
     padding: 35px;
-    font-family: Poppins, Joan, "Nuosu SIL", "Gentium Plus";
+    font-family: "Kdam Thmor Pro", Joan, "Nuosu SIL", "Gentium Plus";
 }
 a:hover {
     background-color: #010101;
@@ -64,20 +65,24 @@ a:hover {
 #hero-msg h1 {
     /*color: #f6d9d9;*/
     color: whitesmoke;
-    font-family: Joan, "Nuosu SIL", "Gentium Plus";
+    font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
     font-size: 3em;
     margin-top: 50px;
     text-align: center;
 }
 .elev-pitch h2 {
     text-align: center;
+    font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
 }
 p {
-    Font: Roboto, "Kdam Thmor Pro", Helvetica;
+    font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
     font-size: 1.25em;
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h3 {
+    text-align: center;
 }
 .card-links {
     display: grid;
