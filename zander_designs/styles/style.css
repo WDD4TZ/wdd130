@@ -102,10 +102,15 @@ h3 {
 .port-card {
     grid-column: 1/2;
     align-content: center;
+    position: relative;
 }
 .about-card {
     grid-column: 2/3;
+    align-content: center;
     border: 5px;
+}
+.about-card a , .port-card a {
+    background-color: transparent;
 }
 .port-img {
     height: 600px;
@@ -313,6 +318,7 @@ footer {
 .social a{
     text-decoration: none;
     padding: 5px;
+    background-color: transparent;
 }
 
 
