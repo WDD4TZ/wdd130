@@ -14,6 +14,16 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 nav {
     text-align: center;
     background-color: #277789;
@@ -210,6 +220,31 @@ h3 {
 .about-header {
     font-size: 2em;
 }
+#hero-about {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box-about {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg-about {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg-about h1 {
+    /*color: #f6d9d9;*/
+    color: black;
+    font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
+    font-size: 5em;
+    margin-top: 250px;
+    text-align: center;
+}
+
+
 /*The following is pasted from the form assignment css. Except for the contact sections.*/
 /*The following is the styling for the contact us page.*/
 .contact-section {
