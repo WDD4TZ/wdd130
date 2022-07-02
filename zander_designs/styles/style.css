@@ -20,8 +20,7 @@ header {
     width: 100%;
     z-index: 1;
   }
-  
-  .sticky + .content {
+.sticky + .content {
     padding-top: 60px;
   }
 nav {
@@ -41,6 +40,7 @@ nav a {
 }
 a:hover {
     background-color: #010101;
+    color: whitesmoke;
 }
 .logo, .icon {
     width: 80px;
@@ -48,6 +48,7 @@ a:hover {
     padding: 10px;
     border: none;
 }
+
 /*copied from wwr*/
 #hero {
     display: grid;
@@ -80,7 +81,8 @@ a:hover {
     margin-top: 50px;
     text-align: center;
 }
-/*.home-title-port is for the word gallery on portfolio page only*/
+
+/*.home-title-port is for the word gallery on hero section portfolio page only*/
 .home-title-port {
     margin-left: 150px;
     padding-top: 1em;
@@ -146,6 +148,7 @@ h3 {
     text-align: center;
     font-size: 35px;
 }
+
 /*portfolio page Css*/
 .port-grid {
     display: grid;
@@ -186,7 +189,6 @@ h3 {
 .first-text h3, .middle-text h3, .last-text h3  {
     font-size: 30px;
     font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
-
 }
 .first-text p, .middle-text p, .last-text p {
    font-size: 22px;
@@ -204,6 +206,15 @@ h3 {
     grid-row: 3/4;
     height: 500px;
     margin-top: -150px;
+}
+.gift-behance {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 18px;
+    margin-top: 505px;
+    margin-left: 100px;
+    height: 30px;
+    width: 300px;
 }
 
 /*the following is for the about page*/
