@@ -75,6 +75,7 @@ a:hover {
 .home-title-port {
     margin-left: 150px;
     padding-top: 1em;
+    text-shadow: 2px 2px 5px whitesmoke;
 }
 .elev-pitch h2 {
     text-align: center;
@@ -143,25 +144,59 @@ h3 {
     grid-column: 2/3;
     grid-row: 1/2;
     width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 10px solid #010101;
 
 }
 .glyph-poster {
     grid-column: 1/2;
     grid-row: 2/3;
     width: 500px;
+    border: 10px solid #010101;
+    margin-top: 100px;
+    margin-left: 100px;
 }
 .gift-poster {
     grid-column: 2/3;
     grid-row: 3/4;
     width: 500px;
+    margin-top: -150;
+    margin-left: 100px;
+    border: 10px solid #010101;
 }
-.first-last-text {
+.first-text {
     grid-column: 1/2;
+    grid-row: 1/2;
+    height: 552px;
+    width: 100%;
+    margin-top: 100px;
 }
+.first-text h3, .middle-text h3, .last-text h3  {
+    font-size: 30px;
+    font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
+
+}
+.first-text p, .middle-text p, .last-text p {
+   font-size: 22px;
+   font-family:  "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
+   text-align: left;
+}
+
 .middle-text {
     grid-column: 2/3;
     grid-row: 2/3;
+    height:350px;
+    margin-top: 100px;
 }
+
+.last-text {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 500px;
+    margin-top: -150;
+}
+
 /*the following is for the about page*/
 .sec-para {
     background-color: #b0d1de;
