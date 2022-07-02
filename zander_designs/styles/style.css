@@ -70,7 +70,6 @@ a:hover {
     margin-top: 50px;
     text-align: center;
 }
-
 /*.home-title-port is for the word gallery on portfolio page only*/
 .home-title-port {
     margin-left: 150px;
@@ -103,7 +102,6 @@ h3 {
 .port-card {
     grid-column: 1/2;
     align-content: center;
-    
 }
 .about-card {
     grid-column: 2/3;
@@ -115,7 +113,6 @@ h3 {
     border: 10px solid #277789;
     margin: 100px 100px;
     box-shadow: 5px 5px 10px #b3dfeb;
-
 }
 .about-img {
     height: 600px;
@@ -147,7 +144,6 @@ h3 {
     margin-top: 100px;
     margin-left: 100px;
     border: 10px solid #010101;
-
 }
 .glyph-poster {
     grid-column: 1/2;
@@ -161,7 +157,7 @@ h3 {
     grid-column: 2/3;
     grid-row: 3/4;
     width: 500px;
-    margin-top: -150;
+    margin-top: -150px;
     margin-left: 100px;
     border: 10px solid #010101;
 }
@@ -182,19 +178,17 @@ h3 {
    font-family:  "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
    text-align: left;
 }
-
 .middle-text {
     grid-column: 2/3;
     grid-row: 2/3;
-    height:350px;
+    height:320px;
     margin-top: 100px;
 }
-
 .last-text {
     grid-column: 1/2;
     grid-row: 3/4;
     height: 500px;
-    margin-top: -150;
+    margin-top: -150px;
 }
 
 /*the following is for the about page*/
@@ -211,8 +205,6 @@ h3 {
 .about-header {
     font-size: 2em;
 }
-
-
 /*The following is pasted from the form assignment css. Except for the contact sections.*/
 /*The following is the styling for the contact us page.*/
 .contact-section {
@@ -310,7 +302,6 @@ footer h3, footer a {
     text-align: center;
     color: #d6e7fa;
 }
-
 footer {
     padding: 25px 50px;
     margin-top: 50px;
@@ -321,6 +312,7 @@ footer {
 }
 .social a{
     text-decoration: none;
+    padding: 5px;
 }
 
 
