@@ -239,6 +239,7 @@ footer {
     padding-right: 35px;
     margin-top: 30px;
 }
+
 .grand-canyon {
     grid-column: 1/2;
     grid-row: 3/4;
@@ -252,7 +253,8 @@ footer {
 }
 .salmon img {
     width: 90%;
-    padding-left: 20px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px grey;
 }
 .gray img {
     box-shadow: 5px 5px 10px #f0eee8;

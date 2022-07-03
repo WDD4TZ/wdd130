@@ -86,7 +86,7 @@ a:hover {
 .home-title-port {
     margin-left: 150px;
     padding-top: 1em;
-    text-shadow: 2px 2px 5px whitesmoke;
+    text-shadow: 2px 2px 5px white;
 }
 .elev-pitch h2 {
     text-align: center;
@@ -162,6 +162,7 @@ h3 {
     margin-top: 100px;
     margin-left: 100px;
     border: 10px solid #010101;
+    box-shadow: 5px 5px 10px grey;
 }
 .glyph-poster {
     grid-column: 1/2;
@@ -170,6 +171,7 @@ h3 {
     border: 10px solid #010101;
     margin-top: 100px;
     margin-left: 100px;
+    box-shadow: 5px 5px 10px grey;
 }
 .gift-poster {
     grid-column: 2/3;
@@ -178,6 +180,7 @@ h3 {
     margin-top: -150px;
     margin-left: 100px;
     border: 10px solid #010101;
+    box-shadow: 5px 5px 10px grey;
 }
 .first-text {
     grid-column: 1/2;
@@ -247,11 +250,10 @@ h3 {
     margin-top: 100px;
 }
 #hero-msg-about h1 {
-    /*color: #f6d9d9;*/
     color: black;
     font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
     font-size: 5em;
-    margin-top: 250px;
+    margin-top: 200px;
     text-align: center;
 }
 
