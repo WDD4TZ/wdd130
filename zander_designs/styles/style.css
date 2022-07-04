@@ -115,12 +115,12 @@ h3 {
 .port-card {
     grid-column: 1/2;
     align-content: center;
-    position: relative;
+    /*position: relative;*/
 }
 .about-card {
     grid-column: 2/3;
     align-content: center;
-    border: 5px;
+    /*border: 5px;*/
 }
 .about-card a , .port-card a {
     background-color: transparent;
@@ -159,6 +159,27 @@ h3 {
     text-align: center;
     font-size: 35px;
 }
+.port-card, .about-card {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .bottom-left-gallery {
+    position: absolute;
+    bottom: 150px;
+    left: 150px;
+    color: #b3dfeb;
+    font-size: 35px;
+    font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
+  }
+ .bottom-right-about {
+    position: absolute;
+    bottom: 150px;
+    right: 475px;
+    color: #277789;
+    font-size: 35px;
+    font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
+  }
 
 /*portfolio page Css*/
 .port-grid {
@@ -166,6 +187,13 @@ h3 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.glyph-background {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    width: 100%;
+    height: 65%;
+}
+
 .font-poster {
     grid-column: 2/3;
     grid-row: 1/2;
@@ -419,7 +447,7 @@ footer {
         margin: 16px auto;
     }
 
-    .texture {
+    .texture, .glyph-background {
         display: none;
     }
     .port-grid {
@@ -449,6 +477,17 @@ footer {
         height: 120px;
         width: 120px;
     }
+    .bottom-left-gallery {
+        position: -webkit-sticky;
+        bottom: 50px;
+        left: 50px;
+        color: #b3dfeb;
+      }
+      .bottom-right-about {
+        position: -webkit-sticky;
+        bottom: 50px;
+        right: 300px;
+      }
 }
 
 
