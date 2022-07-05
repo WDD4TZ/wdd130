@@ -13,12 +13,26 @@
         <a id="logoLink" href="index.html">
             <img class="logo" src="images/design_logo5.png" alt="zander-logo">
         </a>
-        <nav>
+        <nav id="nav">
             <a href="index.html">Home</a>
             <a href="portfolio.html">Gallery</a>
             <a href="about.html">About</a>
         </nav>
     </header>
+    <!--script below I typed using css schools outline.-->
+    <script>
+        window.onscroll = function() {myFunction()};
+        var nav = document.getElementById("nav");
+        var sticky = nav.offsetTop;
+
+        function myFunction() {
+            if(window.pageYOffset >= sticky) {
+                nav.classList.add("sticky")
+            }else {
+                nav.classList.remove("sticky");
+            }
+        }
+    </script>
         <div id="hero">
             <div id="hero-box">
                 <img id="hero-img" src="images/gallery.jpg" alt="laptop_image">
