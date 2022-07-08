@@ -15,15 +15,11 @@ header {
     grid-template-columns: 150px auto;
 }
 .sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 1;
   }
-/*.sticky + .content {
-    padding-top: 60px;
-  }
-*/
 nav {
     text-align: center;
     background-color: #277789;
@@ -92,13 +88,16 @@ a:hover {
 .elev-pitch h2 {
     text-align: center;
     font-family: "Roboto Slab", Joan, "Nuosu SIL", "Gentium Plus";
+    margin: 0 auto;
+    padding: 1em;
 }
 p {
     font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
     font-size: 1.25em;
     text-align: left;
-    margin-left: 25px;
-    margin-right: 25px;
+    padding: 1em;
+    padding-top: 0;
+    margin: 0 auto;
 }
 h3 {
     text-align: center;
@@ -107,29 +106,31 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    padding: 20px;
+    align-content: center;
+    gap: 20px;
 }
 .texture, .port-card, .about-card {
     grid-row: 1/2;
 }
 .port-card {
     grid-column: 1/2;
-    align-content: center;
-    /*position: relative;*/
+    text-align: center;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 .about-card {
     grid-column: 2/3;
-    align-content: center;
-    /*border: 5px;*/
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 .about-card a , .port-card a {
     background-color: transparent;
 }
 .port-img {
-    height: 600px;
-    width: 500px;
+    width: 65%;
     border: 10px solid #277789;
-    margin: 100px 100px;
     box-shadow: 5px 5px 10px #b3dfeb;
     transition: transform .5s;
 }
@@ -138,12 +139,12 @@ h3 {
     transform: scale(1.1);
 }
 .about-img {
-    height: 600px;
-    width: 500px;
+    width: 65%;
     border: 10px solid #277789;
-    margin: 100px 100px;
     box-shadow: 5px 5px 10px #b3dfeb;
     transition: transform .5s;
+    display: flex;
+    justify-content: space-around;
 }
 .about-img:hover {
     opacity: .6;
@@ -166,19 +167,21 @@ h3 {
   }
 .bottom-left-gallery {
     position: absolute;
-    bottom: 150px;
-    left: 150px;
+    bottom: 10%;
+    left: 25%;
     color: #b3dfeb;
     font-size: 35px;
     font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
+    z-index: 1;
   }
  .bottom-right-about {
     position: absolute;
-    bottom: 150px;
-    right: 475px;
+    bottom: 10%;
+    right: 70%;
     color: #277789;
     font-size: 35px;
     font-family: "Roboto slab", "Kdam Thmor Pro", Helvetica;
+    z-index: 1;
   }
 
 /*portfolio page Css*/
@@ -186,47 +189,47 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
 }
 .glyph-background {
     grid-row: 2/3;
     grid-column: 1/3;
+    margin: auto;
     width: 100%;
-    height: 65%;
 }
 
 .font-poster {
     grid-column: 2/3;
     grid-row: 1/2;
-    width: 500px;
-    margin-top: 130px;
-    margin-left: 100px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
     border: 10px solid #010101;
     box-shadow: 5px 5px 10px grey;
 }
 .glyph-poster {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 500px;
+    width: 90%;
     border: 10px solid #010101;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 25%;
+    margin-left: 5%;
     box-shadow: 5px 5px 10px grey;
 }
+
 .gift-poster {
     grid-column: 2/3;
     grid-row: 3/4;
-    width: 500px;
-    margin-top: -150px;
-    margin-left: 100px;
+    width: 80%;
     border: 10px solid #010101;
     box-shadow: 5px 5px 10px grey;
 }
 .first-text {
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 552px;
-    width: 100%;
-    margin-top: 100px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
 }
 .first-text h3, .middle-text h3, .last-text h3  {
     font-size: 30px;
@@ -240,31 +243,23 @@ h3 {
 .middle-text {
     grid-column: 2/3;
     grid-row: 2/3;
-    height:320px;
-    margin-top: 100px;
+    padding: 6%;
 }
 .last-text {
     grid-column: 1/2;
     grid-row: 3/4;
-    height: 500px;
-    margin-top: -150px;
 }
 .gift-behance {
     grid-column: 2/3;
     grid-row: 3/4;
     font-size: 18px;
-    margin-top: 505px;
-    margin-left: 100px;
+    margin-top: 105%;
     height: 30px;
-    width: 300px;
 }
 
 /*the following is for the about page*/
 .sec-para {
     background-color: #b0d1de;
-    height: 375px;
-    margin-top: 40px;
-    padding: 40px;
 }
 .top-para {
     margin-top: 30px;
@@ -300,7 +295,6 @@ h3 {
     text-align: center;
 }
 
-
 /*The following is pasted from the form assignment css. Except for the contact sections.*/
 /*The following is the styling for the contact us page.*/
 .contact-section {
@@ -315,6 +309,7 @@ form {
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;
+    background-color: #b0d1de;
   }
   
   ul {
@@ -391,7 +386,7 @@ form {
 
   .cont-header {
     background-color: #134266;
-  }
+}
 /*footer pasted from wwr*/
 footer h3, footer a {
     text-decoration: underline;
@@ -427,7 +422,7 @@ footer {
     #hero-msg h1 {
         color: #aa7372;
     }
-    nav, footer {
+   nav, footer {
         flex-direction: column;
     }
     nav a {
@@ -438,15 +433,6 @@ footer {
         display: block;
         height: auto;
     }
-    .port-img, .port-img:hover {
-        width: auto;
-        /*margin: 16px auto;*/
-    }
-    .about-img, .about-img:hover {
-        width: auto;
-        /*margin: 16px auto;*/
-    }
-
     .texture, .glyph-background {
         display: none;
     }
@@ -480,13 +466,13 @@ footer {
     .bottom-left-gallery {
         position: -webkit-sticky;
         bottom: 50px;
-        left: 50px;
+        left: 25%;
         color: #b3dfeb;
       }
       .bottom-right-about {
         position: -webkit-sticky;
         bottom: 50px;
-        right: 300px;
+        right: 60%;
       }
 }
 
