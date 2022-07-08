@@ -243,7 +243,7 @@ h3 {
 .middle-text {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding: 6%;
+    padding-top: 10%;
 }
 .last-text {
     grid-column: 1/2;
