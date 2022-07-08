@@ -44,8 +44,8 @@ a:hover {
     color: whitesmoke;
 }
 .logo, .icon {
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     padding: 10px;
     border: none;
 }
@@ -164,7 +164,7 @@ h3 {
     text-align: center;
     color: white;
   }
-  .bottom-left-gallery {
+.bottom-left-gallery {
     position: absolute;
     bottom: 150px;
     left: 150px;
@@ -440,11 +440,11 @@ footer {
     }
     .port-img, .port-img:hover {
         width: auto;
-        margin: 16px auto;
+        /*margin: 16px auto;*/
     }
     .about-img, .about-img:hover {
         width: auto;
-        margin: 16px auto;
+        /*margin: 16px auto;*/
     }
 
     .texture, .glyph-background {
