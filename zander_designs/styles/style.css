@@ -6,9 +6,12 @@ Heading Font: Joan, or "Nuosu SIL", or "Gentium Plus";
 Paragraph Font: Roboto, or "Kdam Thmor Pro", or Helvetica;*/
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gentium+Plus&family=Joan&family=Kdam+Thmor+Pro&family=Nuosu+SIL&family=Roboto&family=Roboto+Slab&display=swap');
 #content {
+    position: relative;
+    align-items: center;
     margin: 0 auto;
     max-width: 1600px;
 }
+
 header {
     background-color: #277789;
     display: grid;
@@ -407,7 +410,7 @@ footer {
 }
 
 /*The following media query must be after all other css*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     #hero, .home-grid {
         display: block;
         height: auto;
