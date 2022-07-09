@@ -18,8 +18,8 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 1;
-  }
+    z-index: 2;
+}
 nav {
     text-align: center;
     background-color: #277789;
@@ -453,9 +453,9 @@ footer {
     }
     .bottom-para {
      margin: auto;
-     margin-top: 85px;
+    /*margin-top: 85px;*/
     }
-    .gift-poster, .font-poster, .glyph-poster {
+    .gift-poster, .font-poster {
         margin: auto;
     }
     .first-text, .middle-text, .last-text {
@@ -475,6 +475,12 @@ footer {
         position: -webkit-sticky;
         bottom: 50px;
         right: 60%;
+      }
+      form {
+        width: 300px;
+      }
+      .home-title-port {
+        margin: 0 auto;
       }
 }
 
